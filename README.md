@@ -77,7 +77,7 @@ Calculate the time complexity for the following code. We've included both JS and
 <code>
 function badCounting(array) {
   let count = 0;
-
+  
   array.forEach((value, idx) => {
     array.forEach((testValue, testIdx) => {
       if (testIdx !== idx && value === testValue) {
